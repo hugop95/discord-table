@@ -1,7 +1,7 @@
 {
   "name": "@hugop/discord-table",
   "description": "A very simple package to build Markdown tables through the Discord API",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "main": "@hugop/discord-table/dist/discord-table.js",
   "scripts": {
     "build": "tsc",
