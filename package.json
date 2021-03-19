@@ -1,0 +1,40 @@
+{
+  "name": "@hugop/discord-table",
+  "description": "A very simple package to build Markdown tables through the Discord API",
+  "version": "1.0.0",
+  "main": "@hugop/discord-table/dist/discord-table.js",
+  "scripts": {
+    "build": "tsc",
+    "publish": "publish",
+    "lint": "tslint server.ts",
+    "test": "jest"
+  },
+  "author": "hugop",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/hugop95/discord-table"
+  },
+  "bugs": {
+    "url": "https://github.com/hugop95/discord-table/issues"
+  },
+  "files": [
+    "dist",
+    "LICENSE",
+    "README.md"
+  ],
+  "keywords": [
+    "discord",
+    "table"
+  ],
+  "homepage": "https://github.com/hugop95/discord-table#readme",
+  "devDependencies": {
+    "@types/jest": "^26.0.14",
+    "@types/node": "^13.7.4",
+    "install": "^0.13.0",
+    "jest": "^26.4.2",
+    "npm": "^6.13.6",
+    "ts-jest": "^26.4.0",
+    "typescript": "^4.2.3"
+  }
+}
